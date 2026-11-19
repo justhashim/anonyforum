@@ -7,7 +7,7 @@ An anonymous forum. No accounts, no names, just posts and votes.
 - Post a title and text with no sign-up. Posts show a generated anonymous name.
 - Upvote or downvote. A random id kept in the browser's `localStorage` stops a browser from voting twice on a post.
 - The list polls the API every 20 seconds, so it stays fresh without sockets.
-- Sort the list, and the page has toast feedback instead of `alert()`.
+- Sort by trending (net votes) or newest.
 - An admin view, enabled by a token in `localStorage`, can reply to a post and delete it.
 
 ## Stack
